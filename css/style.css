@@ -1,0 +1,867 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+height: 6600px;
+/* font-family: "Roboto", sans-serif; */
+
+}
+
+.header{
+width: 100%;
+height: 60px;
+background-color: rgba(253, 239, 197,.7);
+position: fixed;
+z-index: 12;
+top: 0;
+
+
+}
+.inbt-i{
+margin:1.7% 8.5%;
+font-size: medium;
+position: absolute;
+}
+
+
+
+.list{
+list-style: none;
+margin-right: 60px;
+margin: top 20px; ;
+}
+.list li{
+display: inline-block;
+float: right;
+margin-left: 30px;
+margin-top: 18px;
+}
+
+.list li a{
+text-decoration: none;
+color: brown;
+
+}
+
+
+.line2{
+    width: 40px;
+    height: 2px;
+    background-color: blue;
+  margin-left: 755px;
+  margin-top: 35px;
+    }
+input{
+margin: 15px 100px;
+position: absolute;
+width: 270;
+height: 35px;
+border: solid 0;
+border-radius: 32px;
+}
+
+.header-i{
+font-size: 30px;
+position: absolute;
+margin: 12px 20px;
+
+}
+/* /./././././.ALMOTARY~305... */
+.hom{
+width: 100%;
+height: 100vh;
+background-image: url(../imgas/image-5-1024x683.webp);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hom-overlay{
+    position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0,.7);
+
+  
+}
+.hom-content{
+  width: 80%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+text-align: center;
+}
+.hom-titil,.hom-p,.hom-btn{
+color: rgb(255, 255, 255);
+}
+.hom-titil{
+font-size: 60px;
+text-transform: uppercase;
+
+}
+
+.hom-p{
+letter-spacing: 2px;
+color: rgb(231, 208, 208);
+}
+
+.hom-btn,.hom-btn2{
+width: 140px;
+height: 55px;
+background-color: rgb(255, 255, 255);
+color: black;
+font-size: 20px;
+text-transform: capitalize;
+border-radius: 12px;
+margin-top:  10px;
+border: solid 0;
+}
+.hom-btn2{
+background-color: blue;
+color: aliceblue;
+}
+.hom-btn:hover{
+    opacity: .7;
+}
+
+.hom-btn2:hover{
+    opacity: .7;
+}
+/* /./././././.ALMOTARY~305... */
+
+.titl1{
+text-align: center;
+margin-top: 100px;
+font-size: 45px;
+}
+.linet1{
+width: 80px;
+height: 3px;
+background-color: blue;
+margin: auto;
+margin-top: 10px;
+}
+.to-bearent{
+overflow: auto;
+height: 400px;
+
+}
+.to-div{
+width: 300px;
+height: 250px;
+border: solid 1px blue;
+float: left;
+margin-left: 100px;
+margin-top: 70px;
+border-radius: 16px;
+text-align: center;
+position: relative;
+}
+
+.to-div h2{
+padding-top: 40px;
+font-size: 30px;
+}
+.to-div p{
+padding: 30px  0;
+font-size: 20px;
+letter-spacing: 2px;
+color: black;
+}
+.to-div a{
+  text-decoration: none;
+  font-size: 19px;
+}
+.to-i{
+color: rgba(0, 0, 255, 0.741);
+margin-left: -16;
+margin-top: 22px;
+font-size: 25px;
+}
+
+.to-div::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+.to-div:hover::after{
+width: 100%;
+height: 100%;
+background-color: rgb(207, 207, 242);
+opacity: .7;
+}
+/* /./././././.ALMOTARY~305... */
+.wrk-div{
+width: 100%;
+height: 100vh;
+background-color: beige;
+margin-top: 160px;
+position: relative;
+
+}
+
+.titl2{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+}
+.linet2{
+width: 90px;
+height: 3px;
+background-color: blue;
+margin: auto;
+margin-top: 10px;
+}
+.wrk-bearnt1{
+  overflow: auto;
+}
+
+.wrk-img1,.wrk-img2,.wrk-img3,.wrk-img4,.wrk-img5,.wrk-img6{
+width: 300px;
+height: 200px;
+
+background-size: cover;
+text-align: center;
+float: left;
+
+margin-top: 30px;
+}
+.wrk-img1{
+  background-image: url(../imgas/img1.jpg);
+  margin-left: 170px;
+}
+.wrk-img2{
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.02_a19bd7ca.jpg);
+  margin-left: 50px;
+}
+.wrk-img3{
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.03_07e63fac.jpg);
+  margin-left: 50px;
+}
+.wrk-img4{
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.05_6cc70463.jpg);
+  margin-left: 170px;
+}
+.wrk-img5{
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.04_f8f1cca1.jpg);
+  margin-left: 50px;
+}
+.wrk-img6{
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.04_e9391b06.jpg);
+  margin-left: 50px;
+}
+.wrk-overlay{
+width: 100%;
+height:100%;
+background-color: rgba(5, 5, 5,.5);
+visibility: hidden;
+opacity: 0;
+}
+.wrk-img1:hover .wrk-overlay{
+  visibility: visible;
+opacity: 1;
+
+}
+.wrk-img2:hover .wrk-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.wrk-img3:hover .wrk-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.wrk-img4:hover .wrk-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.wrk-img5:hover .wrk-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.wrk-img6:hover .wrk-overlay{
+  visibility: visible;
+  opacity: 1;
+}
+.wrk-content h2{
+font-size: 40px;
+color: rgb(255, 255, 255);
+padding-top: 20px;
+}
+.wrk-content p{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+.wrk-content .i1{
+  width: 40px;
+  height: 25px;
+font-size: 25px;
+background-color: azure;
+color: gray;
+margin-left: -44px;
+border-radius: 3px;
+}
+.wrk-content .i2{
+  width: 40px;
+  height: 25px;
+  font-size: 25px;
+  background-color: azure;
+  color: gray;
+ margin-left: -0;
+ border-radius: 3px;
+
+}
+
+.wrk-bearnt2{
+  overflow: auto;
+}
+
+/* /./././././.ALMOTARY~305... */
+.titl3{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+
+}
+.linet3{
+  width: 80px;
+height: 3px;
+background-color: blue;
+margin: auto;
+margin-top: 10px;
+}
+
+.offer-pearant1{
+  overflow: auto;
+  height: 350px;
+}
+
+
+.offer-div{
+
+  width: 300px;
+  height: 250px;
+  border: solid 1px rgb(1, 1, 211);
+  float: left;
+  margin-left: 100px;
+  margin-top: 70px;
+  border-radius: 16px;
+  position: relative;
+  
+
+}
+.offer-div h2,p{
+padding-left: 40px;
+font-size: 16px;
+font-weight: 800;
+color: rgb(136, 134, 134);
+
+}
+.offer-div p{
+  color: gray;
+  
+  margin-left: 40px;
+}
+.offer-div h2{
+  padding-top: 25px;
+  font-size: 27px;
+  color: black;
+}
+.offer-div i{
+  font-size: 25px;
+  color: rgb(94, 94, 248);
+  padding-top: 10px;
+  margin-left: -0px;
+  margin-left: 6px;
+}
+.offer-div::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+.offer-div:hover::after{
+width: 100%;
+height: 100%;
+background-color: rgb(207, 207, 242);
+opacity: .7;
+}
+
+
+.offer-div:hover h2{
+  color: blue;
+}
+.offer-div:hover p{
+  color: black;
+}
+.offer-pearant2{
+  overflow: auto;
+}
+    
+/* /././.=///...`~ALMOTEARY(305)/...//////ABO:ALAZRK */
+.clear{
+clear: both;
+
+}
+/* //////.............//////////////////.///////////////////////////// */
+.us-pearant{
+  overflow: auto;
+  height: 660px;
+  
+}
+.us-div{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  float: left;
+  
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.us-div span{
+  display: block;
+
+}
+
+.us-div h2,p,span{
+padding: 16px 0;
+
+} 
+.us-div p{
+  color: rgb(131, 123, 123);
+  
+}
+.us-div h2{
+  font-size: 50px;
+}
+.us-div i{
+  position: absolute;
+  font-size: 16px;
+  color: rgb(88, 88, 213);
+  margin-top: 20px;
+  margin-left: -16px;
+}
+
+.us-img{
+  
+width: 340px;
+height: 430px;
+background-image: url(../imgas/WhatsApp\ Image\ 2024-11-14\ at\ 12.18.26_6c888bfc.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+float: left;
+margin-top: 130px;
+margin-left: 170px;
+}
+.us-ul li{
+width: 16px;
+height: 16px;
+background-color: rgb(213, 213, 213);
+border-radius: 50%;
+display: inline-block;
+margin-right: 15px;
+
+}
+.us-list{
+  margin-top: -90px;
+  margin-left: 1000px;
+}
+#us-li{
+
+background-color: rgb(150, 150, 255);
+}
+
+.us-ul li:hover{
+  background-color: rgb(150, 150, 255);
+}
+/* ............////////(~ALMOTERY&305)\\\\\\\\\............. */
+
+.icon-hom{
+  width: 100%;
+  height: 400px;
+  background-image: url(../imgas/WhatsApp\ Image\ 2024-11-12\ at\ 04.12.04_e9391b06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+ margin-top: 100px;
+ position: relative;
+}
+
+.icon-contenr{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0,.7);
+  
+}
+.icon-div{
+  float: left;
+  margin-top: 15%;
+  margin-left: 190px;
+  text-align: center;
+  
+}
+.icon-div h2,p{
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.icon-div h2{
+  font-size: 20px;
+}
+.icon-div i{
+  font-size: 40px;
+  color: rgb(142, 142, 236);
+  margin-top: -50px;
+  margin-left: -20px;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+
+.table-pearant{
+  overflow: auto;
+}
+.table-div{
+  width: 300px;
+  height: 400px;
+  border: rgb(175, 175, 255) 1px solid;
+  float: left;
+  margin-left: 110px;
+margin-top: 50px;
+border-radius: 16px;
+text-align: center;
+position: relative;
+}
+
+.table-div p{
+  color: black;
+}
+.table-div .div-a{
+  width: 100px;
+  height: 100px;
+  border: rgb(151, 151, 245) 2px solid;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+.table-div h2{
+  margin-top: 10px;
+}
+.table-div button{
+  width: 160px;
+  height: 30px;
+  border: 1px rgb(139, 139, 245) solid;
+  border-radius: 6px;
+  position: relative;
+  z-index: 3;
+}
+.table-div::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+
+  top:0 ;
+  left: 0;
+  transition: .5s;
+}
+.table-div:hover::after{
+  width: 100%;
+height: 100%;
+background-color: rgb(154, 154, 223);
+opacity: .7;
+}
+
+.table-div:hover .div-a{
+  border: blue solid;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.icon-hom2{
+  width: 100%;
+  height: 400px;
+  background-image: url(../imgas/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+ margin-top: 100px;
+ position: relative;
+}
+
+.icon-contenr2{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0,.5);
+  
+}
+
+.icon-div2{
+  float: left;
+  margin-top: 10%;
+  margin-left: 190px;
+  text-align: center;
+  width: 340px;
+  
+}
+.icon-div2 img{
+  width: 90px;
+  height: 90px;
+border-radius: 50%;
+float: left;
+margin-left: 30px;
+}
+.icon-div2 .p1{
+color: aliceblue;
+font-size: 30px;
+
+}
+.icon-div2 .p2{
+  color: blue;
+  
+  margin-top: -12px;
+  font-size: 20px;
+}
+.icon-div2 .p3{
+  color: rgb(223, 223, 162);
+  font-size: 16px;
+  
+}
+
+/*/////////////////////////////////////////////////////////// */
+.contenr{
+  width: 80%;
+  margin: auto;
+}
+.team-content{
+
+}
+.team-item{
+  float: left;
+  width: 30%;
+  background-color: rgb(210, 210, 210);
+  padding: 14px  0px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 50px;
+  position: relative;
+}
+.ww{
+  margin: 0 5%;
+  margin-top: 50px;
+}
+
+.team-img{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  
+}
+.team-img img{
+  width: 100%;
+}
+.team-overlay{
+  position: absolute;
+  top: 0;
+  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 13, 13,.7);
+  visibility: hidden;
+ 
+}
+
+.team-overlay a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(111, 178, 245);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  margin-left: auto;
+}
+
+.team-overlay a i{
+  line-height: 40px;
+}
+.team-info h2{
+  padding: 6px 0;
+}
+.team-info p{
+color: rgb(85, 85, 85);
+text-transform: uppercase;
+font-size: 16px;
+}
+
+.team-item:hover h2{
+  color: rgb(255, 255, 255);
+}
+.team-item:hover p{
+  color: blue;
+}
+.team-item:hover  .team-overlay{
+  visibility: visible;
+}
+
+.team-item::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+
+  top:0 ;
+  left: 0;
+  transition: 1s
+}
+.team-item:hover::after{
+  width: 100%;
+height: 100%;
+background-color: rgb(122, 187, 248);
+opacity: .3;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.new-div{
+  float: left;
+  width: 30%;
+  
+  padding: 14px  0px;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 50px;
+  position: relative;
+  border:1px rgb(146, 146, 224) solid;
+}
+.new-div p{
+  color: rgb(113, 111, 111);
+
+}
+.new-div img{
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  border-radius: 16px;
+  
+}
+.new-div span{
+  margin: 20px 12px;
+  font-size: 19px;
+}
+
+.new-div h2{
+  margin: 12px 0;
+ 
+  
+}
+.new-div i{
+  color: rgb(102, 102, 235);
+}
+.new-div a{
+  text-decoration: none;
+}
+
+.new-div::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+
+  top:0 ;
+  left: 0;
+  transition: .5s
+}
+.new-div:hover::after{
+  width: 100%;
+height: 100%;
+background-color: rgb(122, 156, 248);
+opacity: .5;
+}
+.new-div:hover h2{
+  color: rgb(248, 11, 177);
+}
+.new-div:hover p{
+  color: blue;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////**** */
+.the-end{
+  width: 100%;
+  background-color: #d1d3f0;
+  padding: 20px 0px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.content-the-end{
+  margin: auto;
+  height: 300px;
+width: 40%;
+text-align: center;
+}
+.img-the-end , .img-the-end img{
+width:250px;
+height: 200px;
+margin: auto;
+border-radius: 10px;
+}
+.img-the-end{
+  height: 30%;
+}
+.ul-the-end{
+  margin-top: 130px;
+}
+.ul-the-end ul{
+  list-style: none;
+  
+}
+.ul-the-end ul li{
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #9198f7;
+  color: #fff;
+  font-size: 30px;
+ padding-top: 11px;
+ position: relative;
+}
+.ul-the-end p{
+font-size: 13px;
+text-transform: uppercase;
+color: rgb(100, 99, 99);
+padding-top: 10px;
+}
+.ul-the-end ul li:after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color:rgb(179, 179, 245);
+  transition: .5s;
+  opacity: .5;
+  border-radius: 10px;
+}
+.ul-the-end ul li:hover{
+background-color: #4e43e9;
+transition: 0.5s;
+}
+
+
+
+
